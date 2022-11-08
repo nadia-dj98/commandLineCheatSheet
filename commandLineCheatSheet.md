@@ -101,7 +101,6 @@ git init
 ```
 
 
-&nbsp;
 ---
 
 ### Staging and Commiting Changes
@@ -133,7 +132,7 @@ git log
 ```
 
 ## Conclusion and Further Reading
-The Terminal, Git, and GitHub are useful tools and worth getting to grips with. This cheat sheet is just scratching the surface but is a great place to start. For further reading and fun resources the following resources are great:
+The Terminal, Git, and GitHub are useful tools and worth getting to grips with. This cheat sheet is just scratching the surface but is a great place to start. For further reading and fun resources the following are great:
 
 1. [Git and GitHub Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 2. [A game to learn and practice Git commands](https://schoolofcode.github.io/line-commander/)
