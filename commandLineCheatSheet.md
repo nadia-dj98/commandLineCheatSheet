@@ -90,16 +90,53 @@ rm -r my_directory
 ### Initialising your Repo
 Now that we've familiarised ourselves with using the terminal and some basic commands. Let's learn how to create a repository which tracks changes we make to a file. This is useful because if we ever need to go back to an older version we can. 
 
+&nbsp;
+
+
+This command initialises an existing directory as a Git repository. In other words, it creates your repository.
 
 ```
 git init
 
 ```
-- This command initialises an existing directory as a Git repository. In other words, it creates your repository.
+
 
 &nbsp;
 ---
 
 ### Staging and Commiting Changes
 
+Once we've made some changes to our file that we want to be tracked we use the git add command.
+
+This essentially adds a file as it currently looks ready for our next stage.
 ```
+-git add . 
+```
+
+Our next step is to commit the changes we've made. Commit is like the save function, it takes a snapshot or a record of the code at the moment the commit has been made. You're creating a point at which the code is being saved to the repository.
+
+```
+git commit -m "insert description/message of the changes you made"
+```
+
+Last but not least we want to send a copy of these changes to a remote repository. By doing this it means anyone with internet access (and with permissions) can have a copy of our code and make changes to it too.
+
+We use the push command to do this, we "push" our changes to the cloud or in our case *GitHub*.
+```
+git push 
+```
+
+If we want to check the changes we have committed we can use the log command to do so.
+
+```
+git log
+```
+
+## Conclusion and Further Reading
+The Terminal, Git, and GitHub are useful tools and worth getting to grips with. This cheat sheet is just scratching the surface but is a great place to start. For further reading and fun resources the following resources are great:
+
+1. [Git and GitHub Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+2. [A game to learn and practice Git commands](https://schoolofcode.github.io/line-commander/)
+3. [Oh my Git! : Another Game to learn and practice using Git](https://ohmygit.org/)
+4. [BNTA Documentation on Git, GitHub, and the Command Line](https://brightnetwork-technology-academy.github.io/curriculum/git/lessons/intro_to_git/intro_to_git/#sharing-code-with-github)
+
