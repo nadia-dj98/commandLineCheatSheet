@@ -73,11 +73,24 @@ mv my_file.txt ..
 mv my_file.txt my_renamed_file.txt
 
 ```
+### Deleting files a.k.a DANGER ZONE
+The following commands are for when we want to delete a file. Be careful because there is no turning back once you've deleted something so be sure what you are doing is corrrect.
 
+The rm command deletes a file ***permanently***
+```
+rm my_renamed_file.txt
+```
+What we cannot do with an rm is delete a directory, to do this we would have to also add the -r command. This will delete the directory as well as everything inside of it.
+```
+rm -r my_directory
+```
 
 &nbsp;
 
 ### Initialising your Repo
+Now that we've familiarised ourselves with using the terminal and some basic commands. Let's learn how to create a repository which tracks changes we make to a file. This is useful because if we ever need to go back to an older version we can. 
+
+
 ```
 git init
 
